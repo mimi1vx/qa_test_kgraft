@@ -1,0 +1,14 @@
+QA_TEST_KGRAFT
+
+Shell scripts to stress Linux KGraft infrastructure. These
+scripts try to induce a few stressful situations for the live patching
+infrastructure in the hope of making bugs creep out of their hideouts.
+
+Copyright (c) 2017 SUSE
+  Authors: Libor Pechacek
+           Lance Wang
+           Vojtech Pavlik
+           Jiri Kosina
+           Jiri Slaby
+           Ondrej Sukup
+
