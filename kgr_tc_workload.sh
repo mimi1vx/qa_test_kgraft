@@ -54,9 +54,9 @@ function workload_mem {
     local chimem_bin="$SOURCE_DIR/hiworkload/src/chimem"
 
     if [ ! -x "$chimem_bin" ]; then
-        klp_tc_milestone "chimem binary is missing, compile it"
+        kgr_tc_milestone "chimem binary is missing, compile it"
         cd $SOURCE_DIR/hiworkload
-        ./compile.sh || klp_tc_abort "failed to compile chimem"
+        ./compile.sh || kgr_tc_abort "failed to compile chimem"
         cd -
     fi
 
